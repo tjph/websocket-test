@@ -24,6 +24,7 @@ websocketd --port=8080 ruby inventory.rb
 ```
 cd vue-frontend
 npm run dev
-http://localhost:5173
 ```
+
+visit http://localhost:5173
 
