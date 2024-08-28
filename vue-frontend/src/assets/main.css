@@ -1,0 +1,42 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+  padding-bottom: 3rem;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+
+
+  @media (min-width: 960px) {
+    grid-template-columns: 1fr auto;
+  }
+}
+
+.v-text-field .v-input__details {
+  display: contents;
+}
