@@ -1,6 +1,6 @@
 # Shoe Store Demo
 
-Small vue3 / Vite/ Vuetify deamo using data from a websocket
+Small vue3 / Vite / Vuetify demo using data from a websocket
 
 ##### Installation
 
